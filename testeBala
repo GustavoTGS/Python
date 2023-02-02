@@ -1,0 +1,21 @@
+import turtle
+import pygame
+import os
+
+x = 500
+y = 500
+screen = pygame.display.set_mode([x,y])
+screen.fill([0,0,0])
+
+bullet = turtle.Turtle()
+bullet.color("yellow")
+bullet.shape("triangle")
+bullet.penup()
+bullet.speed(0)
+bullet.setheading(90)
+bullet.shapesize(1,1)
+bulletspeed = 20
+
+while 1 == 1:
+  screen.fill([0,0,0])
+  pygame.display.flip()
